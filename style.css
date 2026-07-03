@@ -52,19 +52,3 @@
 .container:hover {
   background-color: aqua;
 }
-
-.container1 {
-  perspective: 1px;
-  background-color: black;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background: red;
-  transform: rotateY(45deg);
-  -webkit-transform: rotateY(45deg);
-  -moz-transform: rotateY(45deg);
-  -ms-transform: rotateY(45deg);
-  -o-transform: rotateY(45deg);
-}
