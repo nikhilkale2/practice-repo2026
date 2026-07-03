@@ -64,3 +64,29 @@
   transform: rotateY(45deg);
   box-shadow: 0 0 5px 5px orange;
 }
+
+.div1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: orange;
+  margin-top: 50px;
+  margin-left: 50px;
+  box-shadow: 0 0 5px 5px gold;
+}
+
+.btn {
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+}
+
+.div1.toggle {
+  background-color: black;
+}
