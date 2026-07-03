@@ -52,3 +52,15 @@
 .container:hover {
   background-color: aqua;
 }
+
+.container1 {
+  perspective: 0px;
+}
+
+.container1 .box {
+  width: 150px;
+  height: 150px;
+  background-color: gold;
+  transform: rotateY(45deg);
+  box-shadow: 0 0 5px 5px orange;
+}
