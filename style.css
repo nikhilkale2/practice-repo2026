@@ -1,0 +1,70 @@
+.container {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 0 0 5px 5px gray;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  animation: move 2s 6 ease-in-out;
+  -webkit-animation: move 2s 0.9s 6 ease-in;
+}
+@keyframes move {
+  0% {
+    transform: scale(1);
+    background-color: #ffffff;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  20% {
+    background-color: lightpink;
+  }
+  40% {
+    background-color: hotpink;
+  }
+  100% {
+    transform: perspective();
+    background-color: deeppink;
+    -webkit-transform: perspective();
+    -moz-transform: perspective();
+    -ms-transform: perspective();
+    -o-transform: perspective();
+  }
+}
+.container h1 {
+  position: relative;
+  top: 40%;
+  font-size: 30px;
+}
+.container p {
+  position: relative;
+  top: 35%;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container:hover {
+  background-color: aqua;
+}
+
+.container1 {
+  perspective: 1px;
+  background-color: black;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transform: rotateY(45deg);
+  -webkit-transform: rotateY(45deg);
+  -moz-transform: rotateY(45deg);
+  -ms-transform: rotateY(45deg);
+  -o-transform: rotateY(45deg);
+}
