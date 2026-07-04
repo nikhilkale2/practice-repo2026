@@ -22,3 +22,15 @@ b = temp;
 
 console.log("a:", a);
 console.log("b:", b);
+
+// Q 2
+
+let x = 12;
+let y = 11;
+
+x = x + y;
+y = x - y;
+x = x - y;
+
+console.log("x = ", x);
+console.log("y = ", y);
