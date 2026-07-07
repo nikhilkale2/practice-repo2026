@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "SN Pro", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  background-color: #000406;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo i {
+  display: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+ul li a {
+  color: white;
+  font-size: 20px;
+}
+.logo p {
+  font-size: 25px;
+}
