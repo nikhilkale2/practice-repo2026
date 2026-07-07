@@ -37,3 +37,19 @@ if (character >= 0 && character <= 9) {
 } else {
   console.log("special character");
 }
+
+let str1 = "silent";
+let str2 = "listen";
+
+if (str1.length !== str2.length) {
+  console.log("Not anagram");
+} else {
+  let s1 = str1.split("").sort().join("");
+  let s2 = str2.split("").sort().join("");
+
+  if (s1 === s2) {
+    console.log("anagram");
+  } else {
+    console.log("Not anagram");
+  }
+}
