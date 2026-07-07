@@ -34,3 +34,15 @@ x = x - y;
 
 console.log("x = ", x);
 console.log("y = ", y);
+
+// Q 3
+
+let a = 10;
+let b = 12;
+let temp = 0;
+
+temp = a;
+a = b;
+b = temp;
+
+console.log(a, " = a" + " " + b, " = b");
