@@ -53,3 +53,11 @@ if (str1.length !== str2.length) {
     console.log("Not anagram");
   }
 }
+
+let n = 25;
+
+if (n % 5 == 0 && n % 11 == 0) {
+  console.log("divisible by both 5 and 11");
+} else {
+  console.log("not divisible by both 5 and 11");
+}
