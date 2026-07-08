@@ -1,0 +1,2 @@
+create footer
+make it website responsive
