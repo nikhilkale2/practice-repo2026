@@ -254,3 +254,57 @@ ul li a {
 .contact-form button:hover {
   box-shadow: 0 0 5px 5px deepskyblue;
 }
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 12px 12px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info {
+  width: 500px;
+  text-align: center;
+}
+
+.footer-info i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.footer-info .fa-instagram {
+  background: linear-gradient(145deg, red, deeppink, darkred);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-info .fa-facebook {
+  color: blue;
+}
+
+.footer-info .fa-whatsapp {
+  color: green;
+}
+
+.footer-name {
+  margin-top: 200px;
+  margin-right: 150px;
+}
+
+.footer-name h1 {
+  background: linear-gradient(145deg, gold, red, white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-links {
+  display: block;
+  margin-right: 200px;
+}
+
+.footer-links li {
+  margin: 20px;
+}

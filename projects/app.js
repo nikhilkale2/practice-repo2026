@@ -31,3 +31,45 @@ gsap.from(".about-info", {
   duration: 2,
   delay: 0.5,
 });
+
+gsap.from(".card-box", {
+  y: -50,
+  opacity: 0,
+  duration: 0.7,
+  delay: 0.4,
+});
+
+gsap.from(".card-box2", {
+  y: -60,
+  opacity: 0,
+  duration: 0.8,
+  delay: 0.6,
+});
+
+gsap.from(".card-box3", {
+  y: -70,
+  opacity: 0,
+  duration: 0.9,
+  delay: 0.8,
+});
+
+gsap.from(".card-box4", {
+  y: -50,
+  opacity: 0,
+  duration: 0.9,
+  delay: 1,
+});
+
+gsap.from(".card-box5", {
+  y: -60,
+  opacity: 0,
+  duration: 0.9,
+  delay: 1.2,
+});
+
+gsap.from(".card-box6", {
+  y: -70,
+  opacity: 0,
+  duration: 0.9,
+  delay: 1.4,
+});

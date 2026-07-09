@@ -39,4 +39,87 @@
     background-color: orangered;
     backdrop-filter: blur(20px);
   }
+
+  /* hero section responsive */
+  .hero-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .hero-about h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .hero-about p {
+    font-size: 20px;
+  }
+  .hero-feature button {
+    width: 90%;
+  }
+  .hero-img img {
+    width: 350px;
+  }
+
+  /* about section */
+
+  .about-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 10px 12px;
+    text-align: center;
+  }
+  .about-info {
+    width: 100%;
+  }
+  .about-info p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .about-img img {
+    width: 350px;
+    height: auto;
+    border-radius: 10%;
+  }
+
+  /* card section */
+
+  .card-container {
+    padding: 15px 12px;
+  }
+
+  /* contact section */
+  .contact-form {
+    padding: 10px 30px;
+  }
+
+  /* footer section */
+  footer {
+    width: 100%;
+    padding: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-info {
+    width: 100%;
+  }
+  .footer-name {
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  .footer-name h1 {
+    font-size: 28px;
+  }
+  .footer-links {
+    display: block;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
 }
