@@ -54,10 +54,88 @@ if (str1.length !== str2.length) {
   }
 }
 
-let n = 25;
+let n = 21;
 
-if (n % 5 == 0 && n % 11 == 0) {
-  console.log("divisible by both 5 and 11");
+if (n % 3 == 0 && n % 7 == 0) {
+  console.log("divisible by both 3 and 7");
 } else {
-  console.log("not divisible by both 5 and 11");
+  console.log("not divisible by both 3 and 7");
+}
+
+let n1 = 100;
+let n2 = 200;
+let n3 = 30;
+
+if (n1 < n2 && n1 < n3) {
+  console.log("n1 is small");
+} else if (n2 < n1 && n2 < n3) {
+  console.log("n2 is small");
+} else {
+  console.log("n3 is small");
+}
+
+let html = 86;
+let JS = 90;
+let dsa = 80;
+let java = 98;
+let python = 70;
+let AI = 80;
+
+let totalMarks = 600;
+
+let obtainedMarks = html + JS + dsa + java + python + AI;
+
+let percentage = (obtainedMarks / totalMarks) * 100;
+
+console.log(
+  "obtained Marks : ",
+  obtainedMarks + "/" + totalMarks + " " + "And",
+  percentage + "%",
+);
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
+
+let sum = 0;
+let sumNumber = 100;
+for (let i = 0; i <= sumNumber; i++) {
+  sum += i;
+}
+
+console.log("sum = ", sum);
+
+let multi = 5;
+
+for (let i = 1; i <= 10; i++) {
+  let result = multi * i;
+
+  console.log(result);
+}
+
+// let sumNumber = 0;
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     sumNumber += i;
+//   }
+// }
+
+// console.log(sumNumber);
+
+let prime = 18;
+let isPrime = true;
+
+for (let i = 2; i < prime; i++) {
+  if (prime % i === 0) {
+    isPrime = false;
+    break;
+  }
+}
+
+if (isPrime) {
+  console.log(prime, " is a prime number");
+} else {
+  console.log(prime, " is not a prime number");
 }
