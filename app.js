@@ -139,3 +139,28 @@ if (isPrime) {
 } else {
   console.log(prime, " is not a prime number");
 }
+
+//
+
+let mob = 932296666565989896532;
+let count = 0;
+
+while (mob > 0) {
+  count++;
+  mob = Math.floor(mob / 10);
+}
+
+console.log(count);
+
+//
+
+let multiNum = 2345;
+let product = 1;
+
+while (multiNum > 0) {
+  let digit = multiNum % 10;
+  product *= digit;
+  multiNum = Math.floor(multiNum / 10);
+}
+
+console.log(product);
