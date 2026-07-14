@@ -164,3 +164,45 @@ while (multiNum > 0) {
 }
 
 console.log(product);
+
+//
+
+let string = "leveol";
+let reverse = "";
+
+for (let i = string.length - 1; i >= 0; i--) {
+  reverse += string[i];
+}
+
+if (reverse === string) {
+  console.log("palindrome");
+} else {
+  console.log("not palindrome");
+}
+
+//
+
+let fact = 5;
+let factorial = 1;
+
+for (let i = fact; i >= 1; i--) {
+  factorial *= i;
+}
+
+console.log(factorial);
+
+let s1 = "listen";
+let s2 = "silent";
+
+if (s1.length !== s2.length) {
+  console.log("Not anagram");
+} else {
+  let sort1 = s1.split("").sort().join("");
+  let sort2 = s2.split("").sort().join("");
+
+  if (sort1 === sort2) {
+    console.log("both are anagrams");
+  } else {
+    console.log("both are not anagrams");
+  }
+}
