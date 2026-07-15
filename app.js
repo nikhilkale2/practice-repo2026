@@ -191,6 +191,8 @@ for (let i = fact; i >= 1; i--) {
 
 console.log(factorial);
 
+//
+
 let s1 = "listen";
 let s2 = "silent";
 
@@ -205,4 +207,44 @@ if (s1.length !== s2.length) {
   } else {
     console.log("both are not anagrams");
   }
+}
+
+//
+
+let m1 = 121;
+let og = m1;
+let m2 = 0;
+
+while (m1 > 0) {
+  let digit = m1 % 10;
+  m2 = m2 * 10 + digit;
+
+  m1 = Math.floor(m1 / 10);
+}
+
+console.log(og);
+console.log(m2);
+
+if (m2 === og) {
+  console.log("palindrome");
+} else {
+  console.log("Not palindrome");
+}
+
+// 15 July 2026
+
+let primeNum = 19;
+let isprime = true;
+
+for (let i = 2; i < primeNum; i++) {
+  if (primeNum % i === 0) {
+    isprime = false;
+    break;
+  }
+}
+
+if (isprime) {
+  console.log("prime Number");
+} else {
+  console.log("not a prime number");
 }
