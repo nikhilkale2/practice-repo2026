@@ -248,3 +248,22 @@ if (isprime) {
 } else {
   console.log("not a prime number");
 }
+
+// Q.2
+
+let n9 = 20;
+
+for (let i = 2; i <= n9; i++) {
+  let IsPrime = true;
+
+  for (let j = 2; j < i; j++) {
+    if (i % j === 0) {
+      IsPrime = false;
+      break;
+    }
+  }
+
+  if (IsPrime) {
+    console.log(i);
+  }
+}
