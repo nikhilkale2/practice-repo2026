@@ -267,3 +267,18 @@ for (let i = 2; i <= n9; i++) {
     console.log(i);
   }
 }
+
+let first = 0;
+let second = 1;
+let next = 1;
+
+console.log("Fibonacci series :");
+console.log(first);
+console.log(second);
+for (let i = 3; i <= 5; i++) {
+  let next = first + second;
+  console.log(next);
+
+  first = second;
+  second = next;
+}
