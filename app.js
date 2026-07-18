@@ -322,29 +322,67 @@ if (perfect === perfSum) {
   console.log(perfect, "is not a perfect number");
 }
 
-
 // 18 July 2026
 
-let num = 145;
-let store = 0;
-store = num;
-let sum = 0;
+// let num = 145;
+// let store = 0;
+// store = num;
+// let sum = 0;
 
-while (num > 0) {
-  let fact = 1;
+// while (num > 0) {
+//   let fact = 1;
 
-  let newnum = num % 10;
-  num = Math.floor(num / 10);
+//   let newnum = num % 10;
+//   num = Math.floor(num / 10);
 
-  for (let i = newnum; i >= 1; i--) {
-    fact *= i;
-  }
+//   for (let i = newnum; i >= 1; i--) {
+//     fact *= i;
+//   }
 
-  sum += fact;
+//   sum += fact;
+// }
+
+// if (sum === store) {
+//   console.log(store, " is a strong number");
+// } else {
+//   console.log(store, " is not a strong number");
+// }
+
+// Q. 2
+
+let str5 = "Nikhil";
+let reverse5 = "";
+for (let i = str5.length - 1; i >= 0; i--) {
+  reverse5 += str5[i];
 }
 
-if (sum === store) {
-  console.log(store, " is a strong number");
+console.log("reverse = ", reverse5);
+
+// Q.3
+
+let name4 = "level";
+let reverse4 = "";
+for (let i = name4.length - 1; i >= 0; i--) {
+  reverse4 += name4[i];
+}
+
+if (reverse4 === name4) {
+  console.log("The string is palindrome");
 } else {
-  console.log(store, " is not a strong number");
+  console.log("The string is not palindrome");
 }
+
+// Q.3
+
+let name6 = "NikhIl";
+let count5 = 0;
+
+for (let i = 0; i <= name6.length - 1; i++) {
+  if (/^[aeiou]+$/.test(name6[i].toLocaleLowerCase())) {
+    count5++;
+  } else {
+    console.log("Not");
+  }
+}
+
+console.log(count5);
