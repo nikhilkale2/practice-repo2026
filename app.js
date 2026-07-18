@@ -282,3 +282,69 @@ for (let i = 3; i <= 5; i++) {
   first = second;
   second = next;
 }
+
+let one = 20;
+let two = 16;
+
+while (two !== 0) {
+  let temp = two;
+  two = one % two;
+  one = temp;
+}
+
+console.log("GCD = ", one);
+
+// 17 July 2026
+
+let s = 9;
+let f = 4;
+
+for (let i = Math.max(s, f); ; i++) {
+  if (i % f === 0 && i % s === 0) {
+    console.log("LCM = ", i);
+    break;
+  }
+}
+
+// Q.2
+
+let perfect = 8;
+let perfSum = 0;
+for (let i = 1; i < perfect; i++) {
+  if (perfect % i === 0) {
+    perfSum += i;
+  }
+}
+
+if (perfect === perfSum) {
+  console.log(perfect, " is a perfect number");
+} else {
+  console.log(perfect, "is not a perfect number");
+}
+
+
+// 18 July 2026
+
+let num = 145;
+let store = 0;
+store = num;
+let sum = 0;
+
+while (num > 0) {
+  let fact = 1;
+
+  let newnum = num % 10;
+  num = Math.floor(num / 10);
+
+  for (let i = newnum; i >= 1; i--) {
+    fact *= i;
+  }
+
+  sum += fact;
+}
+
+if (sum === store) {
+  console.log(store, " is a strong number");
+} else {
+  console.log(store, " is not a strong number");
+}
