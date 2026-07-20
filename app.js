@@ -386,3 +386,13 @@ for (let i = 0; i <= name6.length - 1; i++) {
 }
 
 console.log(count5);
+
+// To check is it number or not question
+
+let num = 1234567890;
+
+if (/^\d+$/.test(num)) {
+  console.log("Number");
+} else {
+  console.log("Not a number");
+}
